@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {    
+        "lib": [
+            "es2018",
+            "dom",
+            "es5", 
+            "es6"
+        ],
+            "module": "es2015",
+            "target": "es6"
+    }
+}
