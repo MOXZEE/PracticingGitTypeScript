@@ -1,5 +1,10 @@
 {
+  "scripts": {
+    "start": "node out/GettingStarted.js",
+    "prestart": "npm run build",
+    "build": "tsc GettingStarted.ts"
+  },
   "dependencies": {
-    "@types/es6-shim": "^0.31.42"
+    "es6-shim": "^0.35.6"
   }
 }

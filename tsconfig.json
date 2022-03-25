@@ -1,12 +1,16 @@
-{
-    "compilerOptions": {    
+{   
+    "compilerOptions": {
+        "target": "es6",
         "lib": [
-            "es2018",
+            "es2015",
+            "es5",
+            "es6",
             "dom",
-            "es5", 
-            "es6"
+            "scripthost"
         ],
-            "module": "es2015",
-            "target": "es6"
+        "rootDir": "./src",
+        "outDir": "public",
+        "sourceMap": true,
+        "module": "commonjs"
     }
 }
